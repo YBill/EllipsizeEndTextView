@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.bill.ellipsizeendtextview.MainActivity">
 
     <com.bill.ellipsizeendtextview.EllipsizeEndTextView
-        android:id="@+id/text_view"
+        android:id="@+id/text_view_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -18,4 +19,27 @@
         app:collapsingText="全文"
         app:maxLine="2"/>
 
-</FrameLayout>
+    <com.bill.ellipsizeendtextview.EllipsizeEndTextView
+        android:id="@+id/text_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:collapsingColor="#457ae6"
+        app:collapsingText="全文"
+        app:maxLine="2"/>
+
+    <com.bill.ellipsizeendtextview.EllipsizeEndTextView
+        android:id="@+id/text_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:collapsingColor="#457ae6"
+        app:collapsingText="全文"
+        app:maxLine="2"/>
+
+
+</LinearLayout>
