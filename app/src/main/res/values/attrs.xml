@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EllipsizeEndTextView">
+        <attr name="maxLine" format="integer"/>
+        <attr name="collapsingText" format="string"/>
+        <attr name="collapsingColor" format="reference|color"/>
+    </declare-styleable>
+</resources>
